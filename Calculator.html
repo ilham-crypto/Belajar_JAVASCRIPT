@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <form name="calculator">
+  
+        <table> 
+         <!-- <caption>Calculator Penjumlahan</caption>
+         <tr>
+          <td>Angka 1</td><td>:</td><td><input type="number" name="angka1"></td>
+         </tr>
+         <tr>
+          <td>Angka 2</td><td>:</td><td><input type="number" name="angka2"></td>
+         </tr>
+         <tr>
+          <td>Angka 3</td><td>:</td><td><input type="number" name="angka3"></td>
+         </tr>
+         <tr>
+          <td>Hasil</td><td>:</td><td><input disabled name="hasil"></td>
+         </tr> -->
+         <h3>PerTambahan</h3>
+    <div style="display: flex;">
+        <div class="content">
+            <input type="number" name="angka1" >
+        </div>
+        +&nbsp;
+        <div class="content">
+            <input type="number" name="angka2" >
+        </div>
+        +&nbsp;
+        <div class="content">
+            <input type="number" name="angka3" >
+        </div>
+        <div class="content">
+            <input class="tombol" type="button" onclick="tambah()" value="  =  ">
+        </div>
+        &nbsp;
+        <div class="content">
+            <input type="text" disabled name="hasil">
+        </div>
+    </div>
+         <!-- <tr>
+          <td colspan="3" align="center">
+           <input class="tombol" type="button" onclick="tambah()" value="  +  ">
+           <input class="tombol" type="button" onclick="kurang()" value="  -  ">
+           <input class="tombol" type="button" onclick="kali()" value="  *  ">
+           <input class="tombol" type="button" onclick="bagi()" value="  /  ">
+          </td>
+         </tr> -->
+        </table>
+       </form>
+    <form name="calculator1">
+  
+        <table> 
+         <!-- <caption>Calculator Penjumlahan</caption>
+         <tr>
+          <td>Angka 1</td><td>:</td><td><input type="number" name="angka1"></td>
+         </tr>
+         <tr>
+          <td>Angka 2</td><td>:</td><td><input type="number" name="angka2"></td>
+         </tr>
+         <tr>
+          <td>Angka 3</td><td>:</td><td><input type="number" name="angka3"></td>
+         </tr>
+         <tr>
+          <td>Hasil</td><td>:</td><td><input disabled name="hasil"></td>
+         </tr> -->
+         <h3>PerKurangan</h3>
+    <div style="display: flex;">
+        <div class="content">
+            <input type="number" name="angka1" >
+        </div>
+        -&nbsp;
+        <div class="content">
+            <input type="number" name="angka2" >
+        </div>
+        -&nbsp;
+        <div class="content">
+            <input type="number" name="angka3" >
+        </div>
+        <div class="content">
+            <input class="tombol" type="button" onclick="kurang()" value="  =  ">
+        </div>
+        &nbsp;
+        <div class="content">
+            <input type="text" disabled name="hasil">
+        </div>
+    </div>
+         <!-- <tr>
+          <td colspan="3" align="center">
+           <input class="tombol" type="button" onclick="tambah()" value="  +  ">
+           <input class="tombol" type="button" onclick="kurang()" value="  -  ">
+           <input class="tombol" type="button" onclick="kali()" value="  *  ">
+           <input class="tombol" type="button" onclick="bagi()" value="  /  ">
+          </td>
+         </tr> -->
+        </table>
+       </form>
+    <form name="calculator2">
+  
+        <table> 
+         <!-- <caption>Calculator Penjumlahan</caption>
+         <tr>
+          <td>Angka 1</td><td>:</td><td><input type="number" name="angka1"></td>
+         </tr>
+         <tr>
+          <td>Angka 2</td><td>:</td><td><input type="number" name="angka2"></td>
+         </tr>
+         <tr>
+          <td>Angka 3</td><td>:</td><td><input type="number" name="angka3"></td>
+         </tr>
+         <tr>
+          <td>Hasil</td><td>:</td><td><input disabled name="hasil"></td>
+         </tr> -->
+         <h3>Perkalian</h3>
+    <div style="display: flex;">
+        <div class="content">
+            <input type="number" name="angka1" >
+        </div>
+        *&nbsp;
+        <div class="content">
+            <input type="number" name="angka2" >
+        </div>
+        *&nbsp;
+        <div class="content">
+            <input type="number" name="angka3" >
+        </div>
+        <div class="content">
+            <input class="tombol" type="button" onclick="kali()" value="  =  ">
+        </div>
+        &nbsp;
+        <div class="content">
+            <input type="text" disabled name="hasil">
+        </div>
+    </div>
+         <!-- <tr>
+          <td colspan="3" align="center">
+           <input class="tombol" type="button" onclick="tambah()" value="  +  ">
+           <input class="tombol" type="button" onclick="kurang()" value="  -  ">
+           <input class="tombol" type="button" onclick="kali()" value="  *  ">
+           <input class="tombol" type="button" onclick="bagi()" value="  /  ">
+          </td>
+         </tr> -->
+        </table>
+       </form>
+    <form name="calculator3">
+  
+        <table> 
+         <!-- <caption>Calculator Penjumlahan</caption>
+         <tr>
+          <td>Angka 1</td><td>:</td><td><input type="number" name="angka1"></td>
+         </tr>
+         <tr>
+          <td>Angka 2</td><td>:</td><td><input type="number" name="angka2"></td>
+         </tr>
+         <tr>
+          <td>Angka 3</td><td>:</td><td><input type="number" name="angka3"></td>
+         </tr>
+         <tr>
+          <td>Hasil</td><td>:</td><td><input disabled name="hasil"></td>
+         </tr> -->
+         <h3>Pembagian</h3>
+    <div style="display: flex;">
+        <div class="content">
+            <input type="number" name="angka1" >
+        </div>
+        /&nbsp;
+        <div class="content">
+            <input type="number" name="angka2" >
+        </div>
+        /&nbsp;
+        <div class="content">
+            <input type="number" name="angka3" >
+        </div>
+        <div class="content">
+            <input class="tombol" type="button" onclick="bagi()" value="  =  ">
+        </div>
+        &nbsp;
+        <div class="content">
+            <input type="text" disabled name="hasil">
+        </div>
+    </div>
+         <!-- <tr>
+          <td colspan="3" align="center">
+           <input class="tombol" type="button" onclick="tambah()" value="  +  ">
+           <input class="tombol" type="button" onclick="kurang()" value="  -  ">
+           <input class="tombol" type="button" onclick="kali()" value="  *  ">
+           <input class="tombol" type="button" onclick="bagi()" value="  /  ">
+          </td>
+         </tr> -->
+        </table>
+       </form>
+    <script src="cal.js"></script>
+</body>
+</html>
